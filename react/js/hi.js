@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from 'react'
+/*import React, {Component, Fragment} from 'react'
 
 class App extends Component
 {
@@ -17,6 +17,20 @@ class App extends Component
             })()
         );
     }
+}*/
+
+let fibo = {
+    [Symbol.iterator]: function* () {
+        let pre = 0, fut = 1;
+        while (true){
+            [pre, fut] = [fut, pre+fut];
+            yield [fut,pre];
+        }
+    }
 }
 
-export default App
+
+for( i of fibo){
+    if(i[0] >2000) break;
+    console.log(i)
+}
