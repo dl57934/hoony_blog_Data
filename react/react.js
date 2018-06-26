@@ -62,7 +62,8 @@ Mounting
 component가 새로 생성될때  
 
 Constructor
-
+제일 처음 실행되는 함수 
+주로 초기설정이 필요한 값이나 state를 설정해줄 때 많이 사용된다.
 getDerivedStateFromProps
 props로 받은 값을 state에 동기화를 시켜주고 싶다.
 
@@ -70,10 +71,23 @@ render
 어떤 돔을 만들지 어떤 태그를 전해줄지
 
 componentDidMount 
-DC차티스트 특정 돔에다가 차트를 그려주세요 라든지 http, ajax등을 요청 할 수있다. 해당 돔에서 스크롤 이벤트를 읽고 싶다. 우리가 만든  
+DC차티스트 특정 돔에다가 차트를 그려주세요 라든지 http, ajax등을 요청 할 수있다. 해당 돔에서 스크롤 이벤트를 읽고 싶다. 컴포넌트가 나타난시점에 어떠한 것을 하겠다. 
 
 
 Updating 
 component나 state가 바뀔때 
+ShouldComponentUpdate
+component가 업데이트되는 성능을 최적화 하기위해서 사용합니다. 
+virtual Dom에 그리는 성능 조차도 아끼고 싶다. 할때 사용하면 좋다.virtual DOM에 그릴지 말지 선택해준다. 
+True값이나 False값을 반환한다. 
+true면 render를 하고 false는 render를 해주지 않는다. 
 
+getSnapshotBeforUpdate 
+scroll의 위치, 해당 돔의 크기 사전에 가져오고 싶다. 할때 사용한다. 
+
+마지막 componentDidUpdate
+이전의 상태와 지금의 상태가 다를때 어떠한 작업을 하겠다.
+ 
 unMounting
+
+componentWillUnmount 
