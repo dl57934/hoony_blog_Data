@@ -3,7 +3,7 @@ import './App.css';
 import PhoneForm from "./component/PhoneForm";
 
 class App extends Component {
-  render() {
+    render() {
     return (
       <div>
         <PhoneForm/>
