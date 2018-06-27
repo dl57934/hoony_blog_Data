@@ -5,10 +5,10 @@ class PhoneInfoList extends Component {
         data:[]
     };
     render() {
-        const data = this.props.data;
+        const {data} = this.props;
         console.log(data);
-        const list = data.map((info)=>
-            (<PhoneInfo info={info} key={info.id}/>)
+        const list = data.map((info)=>{
+           return <PhoneInfo info={info} key={info.id}/>}
         );
         return (
             <div>
