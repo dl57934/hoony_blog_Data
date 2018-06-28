@@ -1,20 +1,18 @@
 import React, {Component} from 'react';
-import PhoneInfo from './PhoneInfo'
+import PhoneForm from "./PhoneForm";
+
 class PhoneInfoList extends Component {
-    static defaultProps = {
-        data:[]
+    style = {
+        border:'1px black solid',
+        margin:'8px',
+        padding:'8px'
     };
-    render() {
-        const {data} = this.props;
-        console.log(data);
-        const list = data.map((info)=>{
-           return <PhoneInfo info={info} key={info.id}/>}
-        );
-        return (
-            <div>
-                {list}
-            </div>
-        );
+    render(){
+        const {name, phone, key} = this.props.info;
+        return(<div style={this.style}>
+            {name}
+            {phone}
+        </div>)
     }
 }
 

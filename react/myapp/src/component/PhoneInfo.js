@@ -1,19 +1,16 @@
 import React, {Component} from 'react';
+import PhoneInfoList from "./PhoneInfoList";
 
 class PhoneInfo extends Component {
-    render() {
-        const {name, phone, id} = this.props.info;
-        const style = {
-            border:"1px solid black",
-            padding:"8px",
-            margin:"8px"
-        };
-        return (
-            <div style={style}>
-                <div><b>{name}</b></div><br/>
-                <div><b>{phone}</b></div>
-            </div>
-        );
+    render(){
+        const {data} = this.props;
+        const list = data.map(info=>{
+                    return <PhoneInfoList info={info} key={info.id}/>
+                }
+            );
+        return (<div>
+            {list}
+        </div>)
     }
 }
 
