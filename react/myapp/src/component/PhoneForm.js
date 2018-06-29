@@ -17,6 +17,7 @@ handlingSubmit= (e)=>{
     this.props.onCreate(this.state);
 };
 
+
 render(){
     return(<form onSubmit={this.handlingSubmit}>
             <input name={"name"} value={this.state.name} placeholder={'이름'} onChange={this.handlingChange}/>

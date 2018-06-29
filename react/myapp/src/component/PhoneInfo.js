@@ -6,9 +6,9 @@ class PhoneInfo extends Component {
         data:[]
     };
     render(){
-        const {data} = this.props;
+        const {data, onRemove, onUpdate} = this.props;
         const list =  data.map(info =>{
-               return <PhoneInfoList info={info} key={info.id}/>
+               return <PhoneInfoList onUpdate={onUpdate} onRemove={onRemove} info={info} key={info.id}/>
             });
         return (<div>
             {list}

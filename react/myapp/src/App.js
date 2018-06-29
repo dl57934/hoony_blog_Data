@@ -7,7 +7,7 @@ class App extends Component {
     state = {
         info:[]
     };
-    id = 0
+    id = 0;
     onCreate = (data) => {
         const {info} = this.state;
         this.setState({
@@ -17,13 +17,37 @@ class App extends Component {
            })
         });
     };
+    handlingRemove = (id)=>{
+        const {info} = this.state;
+        this.setState({
+         info:info.filter(info => info.id !== id)
+        })
+    };
 
+    handleUpdate = (id, data)=>{
+      const {info} = this.state;
+      this.setState({
+          info:info.map(info=>{
+              if(info.id ===id){
+                  return {
+                      id,
+                      ...data
+                  }
+              }else{
+                  return info
+              }
+          })
+      })
+    };
     render(){
         return (
             <div>
                 <PhoneForm onCreate={this.onCreate}/>
                 <br/>
-                <PhoneInfo data={this.state.info}/>
+                <PhoneInfo data={this.state.info}
+                onRemove={this.handlingRemove}
+                onUpdate={this.handleUpdate}
+                />
             </div>
         )
     }
