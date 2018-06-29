@@ -9,7 +9,7 @@ class PhoneInfo extends Component {
 
 
     render(){
-        const {info} = this.props.data;
+        const info = this.props.data;
         const {handlingRemove, handlingChange} = this.props;
         console.log('rendering list');
         const list = info.map(data=>{

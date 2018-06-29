@@ -15,7 +15,8 @@ class App extends Component {
           {id:2,
               name:'이상훈',
               phone:'010-0000-0003'}
-      ]
+      ],
+         keyword:''
     };
     id = 3;
     onCreate=(data)=>{
@@ -59,11 +60,25 @@ class App extends Component {
             })
         })*/
     };
+    handlingKeyword= (e)=>{
+      this.setState({
+          keyword:e.target.value
+      })
+    };
     render(){
         return(
             <div>
             <PhoneForm onCreate={this.onCreate}/>
-            <PhoneInfo data={this.state}
+                <input
+                    value={this.state.keyword}
+                    onChange={this.handlingKeyword}
+                    placeholder={'...검색'}
+                />
+            <PhoneInfo data={this.state.info.filter(
+                info=>{
+                    return info.name.indexOf(this.state.keyword) > -1;
+                }
+            )}
             handlingRemove={this.handlingRemove}
             handlingChange={this.handlingChange}
             />
