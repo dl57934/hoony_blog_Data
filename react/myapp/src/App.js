@@ -4,87 +4,55 @@ import PhoneForm from "./component/PhoneForm";
 import PhoneInfo from "./component/PhoneInfo"
 
 class App extends Component {
-    state={
-      info:[
-          {id:0,
-          name:'홍길동',
-          phone:'010-0000-0001'},
-          {id:1,
-              name:'김민준',
-              phone:'010-0000-0002'},
-          {id:2,
-              name:'이상훈',
-              phone:'010-0000-0003'}
-      ],
-         keyword:''
+    state = {
+        info: [],
+        keyWord:''
     };
-    id = 3;
-    onCreate=(data)=>{
-        const {info} = this.state;
+    id = 0;
+    handlingFormClick = (data) => {
+        const {info} =  this.state;
         this.setState({
             info:info.concat({
             ...data,
             id:this.id++
-        })})
+        })
+        });
     };
-    handlingRemove = (id)=>{
+    handlingRemove= (receiveId)=>{
         const {info} = this.state;
         this.setState({
-            info: info.filter(info=>{
-                return info.id !== id
-            })
+            info:info.filter(data=>data.id !== receiveId)
         })
     };
-    handlingChange=(data, id)=>{
-        const changedInfo = data;
-        const {info}= this.state;
+    handlingChangeKeyword=(e)=>{
         this.setState({
-            info:info.map(info=>{
-                if(info.id === id){
-                    return {
-                        id,
-                        ...changedInfo
-                    }
-                }else {
-                    return info
-                }
-            })
+            [e.target.name]:e.target.value
         })
-      /*  const {info} = this.state;
+    };
+    handlingChange=(data)=>{
+        const receiveData = data;
+        const {info} = this.state;
         this.setState({
             info:info.map(data=>{
-                if(id === info.id){
-                    data = data2;
-                    return data;
+                if(receiveData.id === data.id){
+                    return {
+                        ...receiveData
+                    }
                 }
             })
-        })*/
+        })
     };
-    handlingKeyword= (e)=>{
-      this.setState({
-          keyword:e.target.value
-      })
-    };
-    render(){
-        return(
-            <div>
-            <PhoneForm onCreate={this.onCreate}/>
-                <input
-                    value={this.state.keyword}
-                    onChange={this.handlingKeyword}
-                    placeholder={'...검색'}
-                />
-            <PhoneInfo data={this.state.info.filter(
-                info=>{
-                    return info.name.indexOf(this.state.keyword) > -1;
-                }
-            )}
-            handlingRemove={this.handlingRemove}
-            handlingChange={this.handlingChange}
-            />
-            </div>
-        )
 
+    render() {
+        return (
+            <div>
+                <PhoneForm pushClick={this.handlingFormClick}/>
+                <input onChange={this.handlingChangeKeyword} value={this.state.keyWord} name={'keyWord'}/>
+                <PhoneInfo data={this.state.info.filter(data=>{
+                    return data.name.indexOf(this.state.keyWord) > -1
+                })} onRemove={this.handlingRemove} onChange={this.handlingChange}/>
+            </div>
+        );
     }
 }
 

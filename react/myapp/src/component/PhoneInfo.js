@@ -1,28 +1,26 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 import PhoneInfoList from "./PhoneInfoList";
 
 class PhoneInfo extends Component {
-    static defaultProps = {
-      data:[]
-    };
-
-
-
-    render(){
+    render() {
         const info = this.props.data;
-        const {handlingRemove, handlingChange} = this.props;
-        console.log('rendering list');
+        const {onRemove} = this.props;
+        const {onChange} = this.props;
+        console.log(info);
         const list = info.map(data=>{
-           return <PhoneInfoList info={data}
-                                 handlingRemove={handlingRemove}
-                                 handlingChange={handlingChange}/>
+            return(
+                <Fragment>
+                <PhoneInfoList info={data} onRemove={onRemove} onChange={onChange}/>
+                </Fragment>
+            )
         });
-        return(
+        return (
             <div>
-                {list}
+            {list}
             </div>
-        )
+        );
     }
+
 }
 
 
