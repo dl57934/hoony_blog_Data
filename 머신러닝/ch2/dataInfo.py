@@ -14,6 +14,6 @@ for train_index, test_index in split.split(housing, housing["income_cat"]):
     strat_test_set = housing.loc[test_index]
 
 housing = strat_train_set.copy()
-housing.plot(kind="scatter", x="longitude", y="latitude")
+housing.plot(kind="scatter", x="longitude", y="latitude", alpha=0.1)
 plt.show()
 
