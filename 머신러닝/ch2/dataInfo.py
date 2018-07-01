@@ -12,8 +12,11 @@ split = StratifiedShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
 for train_index, test_index in split.split(housing, housing["income_cat"]):
     strat_train_set = housing.loc[train_index]
     strat_test_set = housing.loc[test_index]
-
+#계층적 샘플링과 랜덤 샘플링을 합친 방법이다.
 housing = strat_train_set.copy()
-housing.plot(kind="scatter", x="longitude", y="latitude", alpha=0.1)
+housing.plot(kind="scatter", x="longitude", y="latitude",
+             alpha=0.4, s=housing["population"]/100, label="population", figsize=(10, 7),
+             c="median_house_value", cmap=plt.get_cmap("jet"), colorbar=True, sharex=False
+             )
 plt.show()
 
