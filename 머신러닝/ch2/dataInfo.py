@@ -1,4 +1,5 @@
 import pandas as pd
+
 from matplotlib import pyplot as plt
 from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.preprocessing import OneHotEncoder
@@ -15,6 +16,7 @@ split = StratifiedShuffleSplit(n_splits=1, test_size=0.2, random_state=42)
 for train_index, test_index in split.split(housing, housing["income_cat"]):
     strat_train_set = housing.loc[train_index]
     strat_test_set = housing.loc[test_index]
+    
 encoder = OneHotEncoder()
 
 housing_cat = housing["ocean_proximity"]

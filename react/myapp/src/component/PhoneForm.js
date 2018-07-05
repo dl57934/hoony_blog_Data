@@ -5,30 +5,25 @@ class PhoneForm extends Component {
         name:'',
         phone:''
     };
-    input = React.createRef();
-    handlingChange =(e) =>{
-    this.setState({
-        [e.target.name]:e.target.value
-    })
-};
-    handlingSubmit = (e)=>{
-        e.preventDefault();
-        const {pushClick} = this.props;
-        pushClick(this.state);
+    handlingChange = (e)=>{
         this.setState({
-            name:'',
-            phone:''
+            [e.target.name]:e.target.value
         })
-        this.input.current.focus();
+    };
+    handlingSubmit =(e)=>{
+        e.preventDefault();
+        const {handlingRegister} = this.props;
+        handlingRegister(this.state);
     };
     render(){
-        return(<form onSubmit={this.handlingSubmit}>
-            <b>이름</b><input name={'name'} value={this.state.name} onChange={this.handlingChange} placeholder={'이름'} ref={this.input}/>
-            <b>전화번호</b><input name={'phone'} value={this.state.phone} onChange={this.handlingChange} placeholder={'전화번호'}/>
-            <button type={'submit'}>등록</button>
-            <br/>
-        </form>)
-    }
+      return(
+          <form onSubmit={this.handlingSubmit}>
+              <input name={'name'} onChange={this.handlingChange} value={this.state.value}/>
+              <input name={'phone'} onChange={this.handlingChange} value={this.state.value}/>
+              <button type={'submit'}>등록</button>
+          </form>
+      )
+  }
 }
 
 
