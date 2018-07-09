@@ -22,7 +22,7 @@ class App extends Component {
         return (
             <div>
                 <PhoneForm handlingRegister={this.handlingRegister}/>
-                <div>{JSON.stringify(this.state.info)}</div>
+                <PhoneInfo dataInformation={this.state.info}/>
             </div>
         )
     }

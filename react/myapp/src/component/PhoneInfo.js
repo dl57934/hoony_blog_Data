@@ -2,9 +2,12 @@ import React, {Component, Fragment} from 'react';
 import PhoneInfoList from "./PhoneInfoList";
 
 class PhoneInfo extends Component {
-
   render(){
-        return(<div></div>)
+        const {dataInformation} = this.props;
+        return(dataInformation.map(data=>{
+            return (<PhoneInfoList dataInformation={data}/>)
+        }))
+
   }
 }
 
