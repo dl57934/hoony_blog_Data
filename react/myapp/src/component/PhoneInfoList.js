@@ -6,15 +6,18 @@ class PhoneInfoList extends Component {
         padding:'8px',
         margin:'8px',
     };
-    handlingDelete = ()=>{
-        
+    handlingDelete = (e)=>{
+        e.preventDefault();
+        let key = e.target.key;
+        const {deleteInfoData} = this.props;
+        deleteInfoData(key);
     };
     render(){
         const {dataInformation} = this.props;
         return(<form style={this.style}>
             {dataInformation.name} <br/>
             {dataInformation.phone}<br/>
-            <button onClick={}>삭제</button><button onClick={}>수정</button>
+            <button onClick={this.handlingDelete}>삭제</button><button>수정</button>
             </form>)
 }
 }
