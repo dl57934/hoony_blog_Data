@@ -6,6 +6,7 @@ import PhoneInfo from "./component/PhoneInfo"
 class App extends Component {
     state = {
         info: [],
+        keyword:''
     };
     key = 0;
     handlingRegister = (data)=>{
@@ -27,6 +28,11 @@ class App extends Component {
             })
         })
     };
+    handlingChange = (e)=>{
+        this.setState({
+            [e.target.name]:e.target.value
+        })
+    };
     editInfoData = (externalData, id)=>{
         let {info} = this.state;
         this.setState({
@@ -46,8 +52,11 @@ class App extends Component {
         console.log(this.state.info);
         return (
             <div>
-                <PhoneForm handlingRegister={this.handlingRegister}/>
-                <PhoneInfo dataInformation={this.state.info} deleteInfoData={this.deleteInfoData} editInfoData = {this.editInfoData}/>
+                <PhoneForm handlingRegister={this.handlingRegister}/><br/>
+                <input value={this.state.keyword} name={'keyword'} onChange={this.handlingChange}/><br/>
+                <PhoneInfo dataInformation={this.state.info.filter(data=>{
+                    return data.name.indexOf(this.state.keyword) > -1
+                })} deleteInfoData={this.deleteInfoData} editInfoData = {this.editInfoData}/>
             </div>
         )
     }
