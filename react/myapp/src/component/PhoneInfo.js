@@ -5,8 +5,9 @@ class PhoneInfo extends Component {
   render(){
         const {dataInformation} = this.props;
         const {deleteInfoData} = this.props;
+        const {editInfoData} = this.props;
         return(dataInformation.map(data=>{
-            return (<PhoneInfoList dataInformation={data} deleteInfoData={deleteInfoData}/>)
+            return (<PhoneInfoList dataInformation={data} deleteInfoData={deleteInfoData} editInfoData={editInfoData}/>)
         }))
 
   }

@@ -27,11 +27,27 @@ class App extends Component {
             })
         })
     };
+    editInfoData = (externalData, id)=>{
+        let {info} = this.state;
+        this.setState({
+            info:info.map(data=>{
+                console.log('id 값'+id + ' dataKey: '+data.key);
+                if(data.key === id){
+                    console.log('들어왔다');
+                    return {
+                        ...externalData,
+                        key:id
+                    }
+                }
+            })
+        })
+    };
     render() {
+        console.log(this.state.info);
         return (
             <div>
                 <PhoneForm handlingRegister={this.handlingRegister}/>
-                <PhoneInfo dataInformation={this.state.info} deleteInfoData={this.deleteInfoData}/>
+                <PhoneInfo dataInformation={this.state.info} deleteInfoData={this.deleteInfoData} editInfoData = {this.editInfoData}/>
             </div>
         )
     }
