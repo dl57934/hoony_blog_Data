@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.svm import SVC
 from sklearn.metrics import classification_report
 from sklearn.model_selection import GridSearchCV
+from sklearn.ensemble import RandomForestClassifier
 trainData = pd.read_csv('../data/train.csv')
 testData = pd.read_csv('../data/test.csv')
 testLabel = pd.read_csv('../data/gender_submission.csv')
@@ -36,6 +37,24 @@ clf.fit(trainData, trainLabel)
 predictData = clf.predict(testData)
 
 report = classification_report(predictData, testLabel['Survived'])
-
-
 print(report)
+
+params = [
+    {"C":[1, 10, 100, 1000], "kernel":["linear"]},
+    {"C":[1, 10, 100, 1000], "kernel":["rbf"], "gamma":[0.001, 0.0001]}
+]
+
+gridClf = GridSearchCV(clf, params, n_jobs=1)
+gridClf.fit(trainData, trainLabel)
+gridPredict = gridClf.predict(testData)
+gridReport = classification_report(gridPredict, testLabel['Survived'])
+
+print(gridReport)
+
+randomForestClf = RandomForestClassifier()
+randomForestClf.fit(trainData, trainLabel)
+gridPredict = randomForestClf.predict(testData)
+gridReport = classification_report(gridPredict, testLabel['Survived'])
+
+print('RandomForest')
+print(gridReport)
