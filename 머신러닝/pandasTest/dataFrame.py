@@ -12,6 +12,7 @@ data = [{'a':1, 'b':2}, {'a':1, 'b':2, 'c':3}]
 #array
 
 data = np.zeros((2,), dtype=[('D','i4'), ('E','f4'), ('F','a10'), ('flag', 'b')])
+
 data[:] = [(1,2.,'Hello', False), (2,3.,"World", False)]
 #select
 data['E'] = data['D'] * data['E']
