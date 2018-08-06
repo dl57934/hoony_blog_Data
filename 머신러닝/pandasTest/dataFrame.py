@@ -41,3 +41,19 @@ v['poo'] = 'bar'
 v.insert(1, 'E2', v['E'])
 print(v)
 # print(pd.DataFrame.from_records(data, index='F'))
+
+data = np.zeros((2,), dtype=[('D','i4'), ('E','f4'), ('F','a10')])
+print(data.dtype)
+data[:] = [(1,2.,'Hello'), (2,3.,"World")]
+print(data)
+
+print(pd.DataFrame)
+
+#change Index Value
+print(pd.DataFrame(data, index=['Hello', 'World']))
+
+
+
+#칼럼 순서 바꿔서 출력하기
+print(pd.DataFrame(data, columns=['F', 'D', 'E']))
+
