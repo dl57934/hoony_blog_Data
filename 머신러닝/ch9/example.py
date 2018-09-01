@@ -1,13 +1,15 @@
 import tensorflow as tf
 
-a = tf.Variable(initial_value=3, name='a')
-b = tf.Variable(initial_value=4, name='b')
+w = tf.constant(3)
+x = w + 2
+y = x + 5
+z = x * 3
 
-c = a+b
+# with tf.Session() as sess:
+#     print(y.eval())
+#     print(z.eval())
 
-graph = tf.Graph()
-with graph.as_default():
-    x2 = tf.Variable(2)
-
-print(x2.graph is graph)
-print(x2.graph is tf.get_default_graph())
+with tf.Session() as sess:
+    y_val, z_val = sess.run([y, z])
+    print(y_val)
+    print(z_val)
