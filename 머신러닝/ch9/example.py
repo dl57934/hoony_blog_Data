@@ -5,9 +5,9 @@ b = tf.Variable(initial_value=4, name='b')
 
 c = a+b
 
-init = tf.global_variables_initializer()
+graph = tf.Graph()
+with graph.as_default():
+    x2 = tf.Variable(2)
 
-sess = tf.InteractiveSession()
-init.run()
-result = c.eval()
-sess.close()
+print(x2.graph is graph)
+print(x2.graph is tf.get_default_graph())
