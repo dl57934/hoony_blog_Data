@@ -23,6 +23,18 @@ class App extends Component {
       })
     });
   };
+  handleUpdate = data => {
+    console.log("App.js: ", data);
+    console.log("App.js 2: ", this.state.information);
+    this.setState({
+      information: this.state.information.map(info => {
+        if (info.id === data.id) {
+          return { ...data };
+        }
+        return info;
+      })
+    });
+  };
   render() {
     return (
       <div>
@@ -30,6 +42,7 @@ class App extends Component {
         <PhoneInfoList
           data={this.state.information}
           handleRemove={this.handleRemove}
+          handleUpdate={this.handleUpdate}
         />
       </div>
     );
