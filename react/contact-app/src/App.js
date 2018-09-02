@@ -6,7 +6,8 @@ class App extends Component {
   id = 0;
 
   state = {
-    information: []
+    information: [],
+    serachName: ""
   };
   handleRemove = key => {
     console.log(key);
@@ -24,8 +25,6 @@ class App extends Component {
     });
   };
   handleUpdate = data => {
-    console.log("App.js: ", data);
-    console.log("App.js 2: ", this.state.information);
     this.setState({
       information: this.state.information.map(info => {
         if (info.id === data.id) {
@@ -35,12 +34,24 @@ class App extends Component {
       })
     });
   };
+  handlingSearchName = e => {
+    this.setState({
+      serachName: e.target.value
+    });
+  };
   render() {
     return (
       <div>
         <PhoneForm onCreate={this.handleCreate} />
+        <input
+          placeholder="검색..."
+          value={this.state.serachName}
+          onChange={this.handlingSearchName}
+        />
         <PhoneInfoList
-          data={this.state.information}
+          data={this.state.information.filter(
+            data => data.name.indexOf(this.state.serachName) > -1
+          )}
           handleRemove={this.handleRemove}
           handleUpdate={this.handleUpdate}
         />
