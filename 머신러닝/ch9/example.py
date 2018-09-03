@@ -21,8 +21,9 @@ y = tf.placeholder(dtype=tf.float32, shape=(None, 1), name="y")
 theta = tf.Variable(tf.random_uniform([n + 1, 1], -1.0, 1.0), name="theta")
 y_pred = tf.matmul(X, theta, name="predictions")
 
-error = y_pred - y
-mse = tf.reduce_mean(tf.square(error), name="mse")
+with tf.name_scope("loss") as scope:
+    error = y_pred - y
+    mse = tf.reduce_mean(tf.square(error), name="mse")
 # gradients = 2 / m * tf.matmul(tf.transpose(X), error) 손수 경사하강법 계산
 # gradients = tf.gradients(mse, [theta])[0] 자동 미분
 # training_op = tf.assign(theta, theta - learning_rate * gradients) 자동 미분
