@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Observer/Observer.iml" filepath="$PROJECT_DIR$/Observer/Observer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObserverTest/ObserverTest.iml" filepath="$PROJECT_DIR$/ObserverTest/ObserverTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObserverTest2/ObserverTest2.iml" filepath="$PROJECT_DIR$/ObserverTest2/ObserverTest2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Singleton/Singleton.iml" filepath="$PROJECT_DIR$/Singleton/Singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Singleton5-1/Singleton5-1.iml" filepath="$PROJECT_DIR$/Singleton5-1/Singleton5-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Singleton5-2/Singleton5-2.iml" filepath="$PROJECT_DIR$/Singleton5-2/Singleton5-2.iml" />
+    </modules>
+  </component>
+</project>
