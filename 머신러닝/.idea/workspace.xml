@@ -2,108 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36a9499f-7509-466e-bbf1-7c50be286fbb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ch9/Problem" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch9/review/shareVariable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch10/1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/머신러닝.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/머신러닝.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools-39.1.0-py3.6.egg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools.pth" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/tcl8.6/init.tcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/Activate.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_asyncio.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_bz2.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_ctypes.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_ctypes_test.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_decimal.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_distutils_findvs.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_elementtree.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_hashlib.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_lzma.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_msi.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_multiprocessing.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_overlapped.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_socket.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_sqlite3.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_ssl.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testbuffer.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testcapi.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testconsole.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testimportmultiple.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_testmultiphase.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/_tkinter.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/activate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-console-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-datetime-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-debug-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-errorhandling-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-file-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-file-l1-2-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-file-l2-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-handle-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-heap-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-interlocked-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-libraryloader-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-localization-l1-2-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-memory-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-namedpipe-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-processenvironment-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-processthreads-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-processthreads-l1-1-1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-profile-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-rtlsupport-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-string-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-synch-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-synch-l1-2-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-sysinfo-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-timezone-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-core-util-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-conio-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-convert-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-environment-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-filesystem-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-heap-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-locale-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-math-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-multibyte-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-private-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-process-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-runtime-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-stdio-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-string-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-time-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/api-ms-win-crt-utility-l1-1-0.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/concrt140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/deactivate.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-3.6-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-3.6.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/easy_install.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/msvcp140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/msvcp140_1.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/msvcp140_2.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.6-script.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.6.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pip3.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pyexpat.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python36.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/select.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/sqlite3.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/tcl86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/tk86t.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/ucrtbase.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/unicodedata.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/vccorlib140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/vcomp140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/vcruntime140.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/winsound.pyd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pyvenv.cfg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +19,7 @@
     <SUITE FILE_PATH="coverage/$dataFrame.coverage" NAME="dataFrame Coverage Results" MODIFIED="1533459526660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pandasTest" />
     <SUITE FILE_PATH="coverage/$pandasTest.coverage" NAME="pandasTest Coverage Results" MODIFIED="1531661981623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$Polynomial_regression.coverage" NAME="Polynomial regression Coverage Results" MODIFIED="1531479080829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch4" />
-    <SUITE FILE_PATH="coverage/$1.coverage" NAME="1 Coverage Results" MODIFIED="1531327507774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch3/practice_Problem" />
+    <SUITE FILE_PATH="coverage/$1.coverage" NAME="1 Coverage Results" MODIFIED="1538039332317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch10" />
     <SUITE FILE_PATH="coverage/$code__1_.coverage" NAME="code (1) Coverage Results" MODIFIED="1532086967064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/$LinearRegression.coverage" NAME="LinearRegression Coverage Results" MODIFIED="1538029972630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch9/review" />
     <SUITE FILE_PATH="coverage/$review.coverage" NAME="review Coverage Results" MODIFIED="1538031644210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ch9/review" />
@@ -147,80 +47,52 @@
     <session id="1478336031">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Problem" value="1" />
           <entry key="R" value="1" />
-          <entry key="py" value="5" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="5" />
+          <entry key="Python" value="6" />
           <entry key="R" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Problem" value="782" />
-          <entry key="py" value="1621" />
+          <entry key="py" value="1858" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="782" />
-          <entry key="Python" value="1621" />
+          <entry key="Python" value="1858" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch9/placeholder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch9/review/review.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ch9/Problem">
+        <entry file="file://$PROJECT_DIR$/ch10/1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+            <state relative-caret-position="114">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch9/2.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kaggle/Titanic/data/test.csv">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -294,6 +166,7 @@
         <option value="$PROJECT_DIR$/ch9/Problem.py" />
         <option value="$PROJECT_DIR$/ch9/review/review.py" />
         <option value="$PROJECT_DIR$/ch9/Problem" />
+        <option value="$PROJECT_DIR$/ch10/1.py" />
       </list>
     </option>
   </component>
@@ -310,9 +183,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="705" />
-    <option name="y" value="181" />
+    <option name="y" value="180" />
     <option name="width" value="955" />
     <option name="height" value="1040" />
   </component>
@@ -322,7 +195,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -333,12 +205,13 @@
             <path>
               <item name="머신러닝" type="b2602c69:ProjectViewProjectNode" />
               <item name="머신러닝" type="462c0819:PsiDirectoryNode" />
-              <item name="ch9" type="462c0819:PsiDirectoryNode" />
+              <item name="ch10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -374,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.review">
+  <component name="RunManager" selected="Python.1">
     <configuration name="머신러닝" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="머신러닝" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -393,6 +266,28 @@
       <option name="ipnbPort" value="8888" />
       <method v="2" />
     </configuration>
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="머신러닝" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch10/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="LinearRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="머신러닝" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -407,28 +302,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch9/review/LinearRegression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="code" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="머신러닝" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="/code.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -524,17 +397,17 @@
       <item itemvalue="Jupyter Notebook.머신러닝" />
       <item itemvalue="Python.example" />
       <item itemvalue="Python.placeholder" />
-      <item itemvalue="Python.code" />
       <item itemvalue="Python.review" />
       <item itemvalue="Python.LinearRegression" />
+      <item itemvalue="Python.1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1" />
         <item itemvalue="Python.review" />
         <item itemvalue="Python.LinearRegression" />
         <item itemvalue="Python.placeholder" />
         <item itemvalue="Python.example" />
-        <item itemvalue="Python.code" />
       </list>
     </recent_temporary>
   </component>
@@ -552,14 +425,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.147651" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32689655" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49289772" visible="true" weight="0.3025568" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49289772" visible="true" weight="0.3025568" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -618,7 +492,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/google.py" />
     <entry file="file://$PROJECT_DIR$/ch2/CategoricalEncoder.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -843,17 +716,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch9/asdasd.R">
+    <entry file="file://$PROJECT_DIR$/ch9/asdasd.R" />
+    <entry file="file://$PROJECT_DIR$/ch9/review/gradient.py" />
+    <entry file="file://$PROJECT_DIR$/ch9/review/LinearRegression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch9/Problem.py" />
+    <entry file="file://$PROJECT_DIR$/ch9/review/shareVariable.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ch9/placeholder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="190">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch9/review/review.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch9/Problem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -867,40 +767,13 @@
     <entry file="file://$PROJECT_DIR$/kaggle/Titanic/data/test.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ch9/review/gradient.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch9/review/LinearRegression.py">
+    <entry file="file://$PROJECT_DIR$/ch10/1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="114">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch9/Problem.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch9/review/shareVariable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="73" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch9/review/review.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch9/Problem">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
         </state>
       </provider>
     </entry>
