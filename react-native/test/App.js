@@ -1,21 +1,17 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { createStackNavigator, createAppContainer } from "react-navigation";
+import firstPage from "./firstPage";
+import secondPage from "./secondPage";
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-      </View>
-    );
-  }
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+const App = createStackNavigator(
+  {
+    Home: { screen: firstPage },
+    second: { screen: secondPage }
   },
+  { initialRouteName: "Home", headerMode: "none" }
+);
+
+export default createAppContainer(App);
+
+createAppContainer({
+  Home: App
 });
