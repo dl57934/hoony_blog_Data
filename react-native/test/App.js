@@ -1,17 +1,34 @@
-import { createStackNavigator, createAppContainer } from "react-navigation";
 import firstPage from "./firstPage";
 import secondPage from "./secondPage";
+import React, { Component } from "react";
+import { createAppContainer, createSwitchNavigator } from "react-navigation";
+import { createStore } from "redux";
+import { Provider } from "react-redux";
+import reducer from "./reducer";
 
-const App = createStackNavigator(
+const store = createStore(reducer);
+
+const View = createSwitchNavigator(
   {
     Home: { screen: firstPage },
-    second: { screen: secondPage }
+    AddAlarm: { screen: secondPage }
   },
-  { initialRouteName: "Home", headerMode: "none" }
+  {
+    initialRouteName: "Home",
+    headerMode: "none",
+    resetOnBlur: false
+  }
 );
 
-export default createAppContainer(App);
+class App extends Component {
+  render() {
+    const Layout = createAppContainer(View);
+    return (
+      <Provider store={store}>
+        <Layout />
+      </Provider>
+    );
+  }
+}
 
-createAppContainer({
-  Home: App
-});
+export default App;
