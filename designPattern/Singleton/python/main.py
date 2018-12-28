@@ -1,9 +1,11 @@
-import Singleton
+from Singleton import Singleton
 
 def main():
-	a = Singleton.Singleton()
-	b = Singleton.Singleton()
-	c = Singleton.Singleton()
+	a = Singleton()
+	b = Singleton()
+	
+	if(a == b):
+		print("같다")
 
 
 
