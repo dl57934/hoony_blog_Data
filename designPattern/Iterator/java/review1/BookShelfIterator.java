@@ -26,7 +26,7 @@ public class BookShelfIterator implements Iterator{
 		if(this.index-1 < EMPTY_BOOK)
 			return this.indexError();
 		else{
-			Book book = getBook(this.index-1);
+			Book book = this.getBook(this.index-1);
 			this.index-=1;
 			return book;
 		}
