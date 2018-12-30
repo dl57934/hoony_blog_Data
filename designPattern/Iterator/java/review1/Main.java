@@ -9,9 +9,9 @@ public class Main{
 
 		Iterator it = itBookShelf.iterator();
 
-		while(it.hasNext()){
 			Book book = (Book)it.next();
 			System.out.println(book.getName());
-		}
+			book = (Book)it.previous();
+			System.out.println(book.getName());
 	}
 }
