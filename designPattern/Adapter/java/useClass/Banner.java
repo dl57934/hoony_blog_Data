@@ -1,6 +1,5 @@
 public class Banner{
 	String name;
-
 	public Banner(String name){
 		this.name = name;
 	}

@@ -1,7 +1,7 @@
 public class Main{
 	public static void main(String[] args){
-		BannerPrinter bnpr = new BannerPrinter(new Banner("이상훈"));
-		bnpr.printStrong();
-		bnpr.printWeek();
+		Print p = new BannerPrinter(new Banner("hoony_blog"));
+		p.printWeek();
+		p.printStrong();
 	}
 }
