@@ -17,7 +17,7 @@ void quicksort(int arr[], int start, int end){
 	int part = partition(arr, start, end);
 	if(start < part-1)
 		quicksort(arr, start, part-1);
-	if(end > mid)
+	if(end > part)
 		quicksort(arr, part, end);
 }
 
