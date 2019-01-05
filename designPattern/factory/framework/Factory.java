@@ -1,12 +1,12 @@
 package framework;
 
 public abstract class Factory{
-	public final Product create(String owner){
-		Product p = createProduct(owner);
-		regeisterProduct(p);
+	public Product create(String company, String resolution){
+		Product p = createProduct(company, resolution);
+		registerProduct(p);
 		return p;
 	}
 
-	protected abstract Product createProduct(String owner);
-	protected abstract void regeisterProduct(Product product);
+	public abstract Product createProduct(String company, String resolution);
+	public abstract void registerProduct(Product product);
 }

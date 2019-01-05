@@ -1,14 +1,14 @@
 import framework.*;
-import idcard.*;
+import tv.*;
 
 public class Main{
 	public static void main(String[] args){
-		Factory factory = new IDCardFactory();
-		Product card1 = factory.create("이상훈");
-		Product card2 = factory.create("최승호");
-		Product card3 = factory.create("강준현");
-		card1.use();
-		card2.use();
-		card3.use();
+		Factory factory = new tvFactory();
+		Product card1 = factory.create("LG", "FullHD");
+		Product card2 = factory.create("SamSung", "UHD");
+		Product card3 = factory.create("LG", "8K");
+		card1.getTvInfo();
+		card2.getTvInfo();
+		card3.getTvInfo();
 	}
 }
