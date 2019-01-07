@@ -2,7 +2,7 @@ package anonymous;
 
 import framework.*;
 
-public class UnderlinePen implements Product {
+public class UnderlinePen extends Product {
     char dechar;
 
     public UnderlinePen(char dechar) {
@@ -17,13 +17,4 @@ public class UnderlinePen implements Product {
         System.out.println();
     }
 
-    public Product cloneObject() {
-        Product p = null;
-        try {
-            p = (Product) clone();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        }
-        return p;
-    }
 }

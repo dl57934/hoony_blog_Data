@@ -11,7 +11,7 @@ public class Manger {
 
 	public Product create(String name) {
 		Product p = (Product) showCase.get(name);
-		return p.cloneObject();
+		return p.createClone();
 	}
 
 }

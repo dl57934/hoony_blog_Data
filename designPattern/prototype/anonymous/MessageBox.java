@@ -2,7 +2,7 @@ package anonymous;
 
 import framework.*;
 
-public class MessageBox implements Product {
+public class MessageBox extends Product {
     char dechar;
 
     public MessageBox(char dechar) {
@@ -18,15 +18,5 @@ public class MessageBox implements Product {
         for (int i = 0; i < length + 4; i++)
             System.out.print(dechar);
         System.out.println();
-    }
-
-    public Product cloneObject() {
-        Product p = null;
-        try {
-            p = (Product) clone();
-        } catch (CloneNotSupportedException e) {
-            e.printStackTrace();
-        }
-        return p;
     }
 }
