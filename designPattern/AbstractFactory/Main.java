@@ -1,12 +1,12 @@
 import Factory.SmartPhoneFactory;
-import Product.LgFactory;
-import Product.SamsungFactory;
+
 
 public class Main {
     public static void main(String[] args){
-        SmartPhoneFactory galaxyS3 = new SamsungFactory();
+        SmartPhoneFactory galaxyS3 = OrderSmartPhone.makeFactory("Samsung");
         System.out.println(galaxyS3.assemble("Galaxy S3"));
-        SmartPhoneFactory LgG3 = new LgFactory();
+        SmartPhoneFactory LgG3 = OrderSmartPhone.makeFactory("LG");
         System.out.println(LgG3.assemble("LG G3"));
     }
 }
+
