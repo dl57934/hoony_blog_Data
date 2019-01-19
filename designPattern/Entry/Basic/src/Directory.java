@@ -3,11 +3,11 @@ import java.util.Iterator;
 
 public class Directory extends Entry{
     private String name;
-    private ArrayList directory = new ArrayList();
-
+    private ArrayList<Entry> dictionary = new ArrayList<>();
     public Directory(String name){
         this.name = name;
     }
+
     @Override
     public String getName() {
         return name;
@@ -15,28 +15,28 @@ public class Directory extends Entry{
 
     @Override
     public int getSize() {
+        Iterator<Entry> iterator = dictionary.iterator();
         int size = 0;
-        Iterator it = directory.iterator();
-
-        while(it.hasNext()){
-            Entry entry = (Entry)it.next();
-            size += entry.getSize();
+        while(iterator.hasNext()) {
+            Entry entry = iterator.next();
+            size+=entry.getSize();
         }
         return size;
     }
 
-    public Entry add(Entry entry){
-        directory.add(entry);
+    @Override
+    public Entry add(Entry entry) {
+        dictionary.add(entry);
         return this;
     }
 
     @Override
-    protected void printList(String prefix) {
+    public void printList(String prefix) {
         System.out.println(prefix+"/"+this);
-        Iterator iterator = directory.iterator();
+        Iterator<Entry> iterator = dictionary.iterator();
         while(iterator.hasNext()){
-            Entry entry = (Entry)iterator.next();
-            entry.printList(prefix+"/"+name);
+           Entry entry = iterator.next();
+           entry.printList(prefix+"/"+name);
         }
     }
 }

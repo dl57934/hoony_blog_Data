@@ -16,7 +16,12 @@ public class File extends Entry{
     }
 
     @Override
-    protected void printList(String prefix) {
+    public Entry add(Entry entry) {
+        return null;
+    }
+
+    @Override
+    public void printList(String prefix) {
         System.out.println(prefix+"/"+this);
     }
 }

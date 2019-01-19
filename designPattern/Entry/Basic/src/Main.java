@@ -9,7 +9,7 @@ public class Main {
             rootdir.add(tmpdir);
             rootdir.add(usrdir);
             bindir.add(makeFile("vi", 10000));
-            bindir.add(new File("latex", 20000));
+            bindir.add(makeFile("latex", 20000));
             rootdir.printList();
 
         }catch (FileTreatmentException e){
