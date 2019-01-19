@@ -6,10 +6,12 @@ from TextDocuments import TextDocuments
 def isHtml(order):
     return order == "html"
 
+
 def makeDocumeents(documents):
     director = Director(documents)
     director.constructor()
     print(documents.getResult())
+
 
 if __name__ == "__main__":
     order = input()

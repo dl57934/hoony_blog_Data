@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0cd5ae99-7906-428a-b156-827278ad5784" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HtmlDocuments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TextDocuments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Builder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Director.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TextBuilder.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bridge/BridgeJava/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bridge/BridgeJava/src/CountDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bridge/BridgeJava/src/DisplayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bridge/BridgeJava/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bridge/BridgeJava/src/StringDisplayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bridge/BridgePython/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bridge/BridgePython/CountDisplay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bridge/BridgePython/Display.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bridge/BridgePython/Displayimpl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bridge/BridgePython/StringDisplayimpl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bridge/BridgePython/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../basicAlgorithm/sort/merge/merge" beforeDir="false" afterPath="$PROJECT_DIR$/../../../basicAlgorithm/sort/merge/merge" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../basicAlgorithm/sort/merge/merge.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../basicAlgorithm/sort/merge/merge.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AbstractFactory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AbstractFactory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Director.py" beforeDir="false" afterPath="$PROJECT_DIR$/Director.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../prototype/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../prototype/anonymous/MessageBox.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../prototype/anonymous/MessageBox.java" beforeDir="false" />
@@ -9900,8 +9908,10 @@
     <session id="1829361300">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -9927,41 +9937,40 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Builder.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Director.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-              <folding>
-                <marker date="1547167593396" expanded="true" signature="45:46" ph="..." />
-                <marker date="1547167593396" expanded="true" signature="45:51" ph="..." />
-                <marker date="1547167593396" expanded="true" signature="143:147" ph="..." />
-              </folding>
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Director.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+              <folding>
+                <marker date="1547874065820" expanded="true" signature="15:16" ph="..." />
+                <marker date="1547874065820" expanded="true" signature="15:21" ph="..." />
+                <marker date="1547874065820" expanded="true" signature="113:117" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HtmlDocuments.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="345">
+              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
               <folding>
                 <marker date="1547167680100" expanded="true" signature="59:60" ph="..." />
                 <marker date="1547167680100" expanded="true" signature="84:112" ph="..." />
                 <marker date="1547167680100" expanded="true" signature="138:187" ph="..." />
                 <marker date="1547167680100" expanded="true" signature="211:261" ph="..." />
-                <marker date="1547167680100" expanded="true" signature="353:447" ph="..." />
               </folding>
             </state>
           </provider>
@@ -9970,8 +9979,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TextDocuments.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -9979,11 +9988,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
-                <marker date="1547167417177" expanded="true" signature="189:286" ph="..." />
+                <marker date="1547874065830" expanded="true" signature="190:288" ph="..." />
               </folding>
             </state>
           </provider>
@@ -10005,10 +10014,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TextDocuments.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/Builder.py" />
-        <option value="$PROJECT_DIR$/Director.py" />
         <option value="$PROJECT_DIR$/HtmlDocuments.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/Director.py" />
       </list>
     </option>
   </component>
@@ -10123,30 +10132,31 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="953" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329849" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329849" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -10158,51 +10168,50 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
-            <marker date="1547167417177" expanded="true" signature="189:286" ph="..." />
+            <marker date="1547874065830" expanded="true" signature="190:288" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TextDocuments.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Builder.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Director.py">
+    <entry file="file://$PROJECT_DIR$/TextDocuments.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <marker date="1547167593396" expanded="true" signature="45:46" ph="..." />
-            <marker date="1547167593396" expanded="true" signature="45:51" ph="..." />
-            <marker date="1547167593396" expanded="true" signature="143:147" ph="..." />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HtmlDocuments.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="345">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding>
             <marker date="1547167680100" expanded="true" signature="59:60" ph="..." />
             <marker date="1547167680100" expanded="true" signature="84:112" ph="..." />
             <marker date="1547167680100" expanded="true" signature="138:187" ph="..." />
             <marker date="1547167680100" expanded="true" signature="211:261" ph="..." />
-            <marker date="1547167680100" expanded="true" signature="353:447" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Director.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <marker date="1547874065820" expanded="true" signature="15:16" ph="..." />
+            <marker date="1547874065820" expanded="true" signature="15:21" ph="..." />
+            <marker date="1547874065820" expanded="true" signature="113:117" ph="..." />
           </folding>
         </state>
       </provider>

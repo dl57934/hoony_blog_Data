@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e5565c1-de96-4960-85aa-6b28906206f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OrderSmartPhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../basicAlgorithm/sort/merge/merge" beforeDir="false" afterPath="$PROJECT_DIR$/../../basicAlgorithm/sort/merge/merge" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../basicAlgorithm/sort/merge/merge.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../basicAlgorithm/sort/merge/merge.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Cpu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Cpu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factory/Ram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Factory/Ram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AbstractFactory/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AbstractFactory/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Builder/python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Builder/python/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Builder/python/Director.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Builder/python/Director.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../prototype/Main.java" beforeDir="false" />
@@ -9897,7 +9892,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Factory/Ram.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -9911,7 +9906,7 @@
         <entry file="file://$PROJECT_DIR$/Product/QualcommCpu.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="11" lean-forward="true" selection-end-line="11" />
+              <caret line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -9920,7 +9915,7 @@
         <entry file="file://$PROJECT_DIR$/Product/SkHynix.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-end-line="11" />
+              <caret line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#176#177#0" expanded="true" />
                 <element signature="e#211#212#0" expanded="true" />
@@ -9933,7 +9928,7 @@
         <entry file="file://$PROJECT_DIR$/Product/SamsungFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="23" lean-forward="true" selection-end-line="23" />
+              <caret line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#212#213#0" expanded="true" />
@@ -9951,7 +9946,7 @@
         <entry file="file://$PROJECT_DIR$/Product/SamsungDisplay.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="11" lean-forward="true" selection-end-line="11" />
+              <caret line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -9960,7 +9955,7 @@
         <entry file="file://$PROJECT_DIR$/Product/SamsungRam.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="11" lean-forward="true" selection-end-line="11" />
+              <caret line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -9969,7 +9964,7 @@
         <entry file="file://$PROJECT_DIR$/Product/ExinosCpu.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="12" lean-forward="true" selection-end-line="12" />
+              <caret line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -9978,7 +9973,7 @@
         <entry file="file://$PROJECT_DIR$/OrderSmartPhone.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="1" lean-forward="true" selection-end-line="17" />
+              <caret line="16" column="1" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -9986,235 +9981,95 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="60">
+              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="uml://JAVA/Product">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
               <ID>JAVA</ID>
               <OriginalElement>Product</OriginalElement>
               <nodes>
-                <node x="200.49594155844142" y="189.0">Product.QualcommCpu</node>
-                <node x="893.5990259740258" y="189.0">Product.ExinosCpu</node>
-                <node x="428.59902597402595" y="0.0">Factory.Display</node>
-                <node x="412.42343073593065" y="328.0">Product.AnotherPhoneFactory</node>
-                <node x="723.5990259740258" y="189.0">Product.SamsungDisplay</node>
-                <node x="810.4234307359307" y="328.0">Product.SamsungFactory</node>
-                <node x="358.4959415584414" y="189.0">Product.SkHynix</node>
-                <node x="658.9323593073592" y="0.0">Factory.Ram</node>
-                <node x="482.0376082251081" y="189.0">Factory.SmartPhoneFactory</node>
-                <node x="565.8073593073592" y="0.0">Factory.Cpu</node>
-                <node x="94.90340909090895" y="328.0">Product.LgFactory</node>
-                <node x="73.49594155844142" y="189.0">Product.LgDisplay</node>
-                <node x="1028.5990259740258" y="189.0">Product.SamsungRam</node>
+                <node x="134.0" y="385.0">Product.QualcommCpu</node>
+                <node x="0.0" y="385.0">Product.ExinosCpu</node>
+                <node x="81.5" y="153.0">Factory.Display</node>
+                <node x="300.0" y="79.0">Product.AnotherPhoneFactory</node>
+                <node x="127.0" y="232.0">Product.SamsungDisplay</node>
+                <node x="129.0" y="79.0">Product.SamsungFactory</node>
+                <node x="151.0" y="538.0">Product.SkHynix</node>
+                <node x="95.75" y="459.0">Factory.Ram</node>
+                <node x="120.0" y="0.0">Factory.SmartPhoneFactory</node>
+                <node x="93.5" y="306.0">Factory.Cpu</node>
+                <node x="0.0" y="79.0">Product.LgFactory</node>
+                <node x="0.0" y="232.0">Product.LgDisplay</node>
+                <node x="0.0" y="538.0">Product.SamsungRam</node>
               </nodes>
               <notes />
               <edges>
-                <edge source="Product.LgFactory" target="Product.LgDisplay">
-                  <point x="1.1368683772161603E-13" y="-14.5" />
-                  <point x="149.40340909090907" y="278.0" />
-                  <point x="100.24594155844142" y="278.0" />
-                  <point x="-26.75" y="14.5" />
+                <edge source="Product.SkHynix" target="Factory.Ram">
+                  <point x="0.0" y="-14.5" />
+                  <point x="200.0" y="513.0" />
+                  <point x="151.25" y="513.0" />
+                  <point x="18.5" y="14.5" />
                 </edge>
-                <edge source="Product.LgFactory" target="Factory.Cpu">
-                  <point x="-31.142857142856997" y="-14.5" />
-                  <point x="118.26055194805195" y="298.0" />
-                  <point x="41.228084415584306" y="298.0" />
-                  <point x="41.228084415584306" y="119.0" />
-                  <point x="571.8906926406926" y="119.0" />
-                  <point x="-30.41666666666663" y="14.5" />
+                <edge source="Product.SamsungDisplay" target="Factory.Display">
+                  <point x="0.0" y="-14.5" />
+                  <point x="201.5" y="207.0" />
+                  <point x="150.5" y="207.0" />
+                  <point x="23.0" y="14.5" />
                 </edge>
-                <edge source="Product.SamsungFactory" target="Factory.SmartPhoneFactory">
-                  <point x="-64.7142857142857" y="-14.5" />
-                  <point x="821.209145021645" y="288.0" />
-                  <point x="622.8709415584415" y="288.0" />
+                <edge source="Product.AnotherPhoneFactory" target="Factory.SmartPhoneFactory">
+                  <point x="0.0" y="-14.5" />
+                  <point x="391.5" y="54.0" />
+                  <point x="260.83333333333337" y="54.0" />
                   <point x="56.33333333333337" y="14.5" />
                 </edge>
-                <edge source="Product.AnotherPhoneFactory" target="Product.SkHynix">
-                  <point x="-26.142857142857224" y="-14.5" />
-                  <point x="477.7805735930734" y="248.0" />
-                  <point x="431.9959415584414" y="248.0" />
-                  <point x="24.5" y="14.5" />
-                </edge>
-                <edge source="Product.LgFactory" target="Product.QualcommCpu">
-                  <point x="15.571428571428783" y="-14.5" />
-                  <point x="164.97483766233773" y="288.0" />
-                  <point x="234.99594155844142" y="288.0" />
-                  <point x="-34.5" y="14.5" />
-                </edge>
-                <edge source="Product.LgFactory" target="Factory.Ram">
-                  <point x="-15.571428571428442" y="-14.5" />
-                  <point x="133.8319805194805" y="288.0" />
-                  <point x="52.228084415584306" y="288.0" />
-                  <point x="52.228084415584306" y="149.0" />
-                  <point x="665.0990259740258" y="149.0" />
-                  <point x="-30.83333333333337" y="14.5" />
-                </edge>
-                <edge source="Product.AnotherPhoneFactory" target="Factory.Cpu">
-                  <point x="52.285714285714334" y="-14.5" />
-                  <point x="556.209145021645" y="298.0" />
-                  <point x="661.5376082251081" y="298.0" />
-                  <point x="661.5376082251081" y="139.0" />
-                  <point x="608.3906926406926" y="139.0" />
-                  <point x="6.083333333333371" y="14.5" />
+                <edge source="Product.SamsungFactory" target="Factory.SmartPhoneFactory">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
                 </edge>
                 <edge source="Product.ExinosCpu" target="Factory.Cpu">
                   <point x="0.0" y="-14.5" />
-                  <point x="950.5990259740258" y="69.0" />
-                  <point x="632.7240259740258" y="69.0" />
-                  <point x="30.41666666666663" y="14.5" />
+                  <point x="57.0" y="360.0" />
+                  <point x="111.75" y="360.0" />
+                  <point x="-18.25" y="14.5" />
                 </edge>
-                <edge source="Product.AnotherPhoneFactory" target="Product.QualcommCpu">
-                  <point x="-52.285714285714334" y="-14.5" />
-                  <point x="451.6377164502163" y="258.0" />
-                  <point x="303.9959415584414" y="258.0" />
-                  <point x="34.5" y="14.5" />
-                </edge>
-                <edge source="Product.SamsungRam" target="Factory.Ram">
+                <edge source="Product.QualcommCpu" target="Factory.Cpu">
                   <point x="0.0" y="-14.5" />
-                  <point x="1094.0990259740258" y="49.0" />
-                  <point x="726.7656926406926" y="49.0" />
-                  <point x="30.83333333333337" y="14.5" />
-                </edge>
-                <edge source="Factory.SmartPhoneFactory" target="Factory.Cpu">
-                  <point x="0.0" y="-14.5" />
-                  <point x="566.5376082251081" y="139.0" />
-                  <point x="596.2240259740258" y="139.0" />
-                  <point x="-6.083333333333371" y="14.5" />
-                </edge>
-                <edge source="Product.SkHynix" target="Factory.Ram">
-                  <point x="0.0" y="-14.5" />
-                  <point x="407.4959415584414" y="159.0" />
-                  <point x="677.4323593073592" y="159.0" />
-                  <point x="-18.5" y="14.5" />
-                </edge>
-                <edge source="Factory.SmartPhoneFactory" target="Factory.Ram">
-                  <point x="56.33333333333337" y="-14.5" />
-                  <point x="622.8709415584415" y="169.0" />
-                  <point x="689.7656926406926" y="169.0" />
-                  <point x="-6.166666666666629" y="14.5" />
-                </edge>
-                <edge source="Product.AnotherPhoneFactory" target="Factory.Ram">
-                  <point x="78.42857142857144" y="-14.5" />
-                  <point x="582.3520021645021" y="308.0" />
-                  <point x="702.0990259740258" y="308.0" />
-                  <point x="6.166666666666629" y="14.5" />
-                </edge>
-                <edge source="Product.SamsungFactory" target="Factory.Cpu">
-                  <point x="0.0" y="-14.5" />
-                  <point x="885.9234307359307" y="308.0" />
-                  <point x="883.0990259740258" y="308.0" />
-                  <point x="883.0990259740258" y="79.0" />
-                  <point x="620.5573593073592" y="79.0" />
+                  <point x="203.0" y="360.0" />
+                  <point x="148.25" y="360.0" />
                   <point x="18.25" y="14.5" />
                 </edge>
                 <edge source="Product.LgDisplay" target="Factory.Display">
                   <point x="0.0" y="-14.5" />
-                  <point x="126.99594155844142" y="109.0" />
-                  <point x="451.59902597402595" y="109.0" />
+                  <point x="53.5" y="207.0" />
+                  <point x="104.5" y="207.0" />
                   <point x="-23.0" y="14.5" />
                 </edge>
-                <edge source="Product.SamsungFactory" target="Factory.Display">
-                  <point x="-43.14285714285711" y="-14.5" />
-                  <point x="842.7805735930735" y="278.0" />
-                  <point x="713.0990259740258" y="278.0" />
-                  <point x="713.0990259740258" y="99.0" />
-                  <point x="497.59902597402595" y="99.0" />
-                  <point x="23.0" y="14.5" />
-                </edge>
-                <edge source="Product.AnotherPhoneFactory" target="Product.LgDisplay">
-                  <point x="-78.42857142857144" y="-14.5" />
-                  <point x="425.4948593073592" y="268.0" />
-                  <point x="153.74594155844142" y="268.0" />
-                  <point x="26.75" y="14.5" />
-                </edge>
-                <edge source="Product.SamsungFactory" target="Product.ExinosCpu">
-                  <point x="21.571428571428555" y="-14.5" />
-                  <point x="907.4948593073592" y="288.0" />
-                  <point x="950.5990259740258" y="288.0" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="Product.SamsungFactory" target="Product.SamsungRam">
-                  <point x="64.71428571428572" y="-14.5" />
-                  <point x="950.6377164502164" y="308.0" />
-                  <point x="1094.0990259740258" y="308.0" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="Product.LgFactory" target="Product.SkHynix">
-                  <point x="31.142857142857224" y="-14.5" />
-                  <point x="180.54626623376618" y="298.0" />
-                  <point x="382.9959415584414" y="298.0" />
-                  <point x="-24.5" y="14.5" />
-                </edge>
-                <edge source="Product.SamsungDisplay" target="Factory.Display">
-                  <point x="0.0" y="-14.5" />
-                  <point x="798.0990259740258" y="89.0" />
-                  <point x="512.9323593073592" y="89.0" />
-                  <point x="38.333333333333314" y="14.5" />
-                </edge>
-                <edge source="Product.LgFactory" target="Factory.Display">
-                  <point x="-46.714285714285666" y="-14.5" />
-                  <point x="102.68912337662329" y="308.0" />
-                  <point x="0.0" y="308.0" />
-                  <point x="0.0" y="99.0" />
-                  <point x="436.2656926406926" y="99.0" />
-                  <point x="-38.333333333333314" y="14.5" />
-                </edge>
-                <edge source="Product.AnotherPhoneFactory" target="Factory.SmartPhoneFactory">
-                  <point x="26.14285714285711" y="-14.5" />
-                  <point x="530.0662878787878" y="288.0" />
-                  <point x="566.5376082251081" y="288.0" />
-                  <point x="0.0" y="14.5" />
-                </edge>
-                <edge source="Product.SamsungFactory" target="Factory.Ram">
-                  <point x="43.14285714285717" y="-14.5" />
-                  <point x="929.0662878787878" y="298.0" />
-                  <point x="1018.0990259740258" y="298.0" />
-                  <point x="1018.0990259740258" y="59.0" />
-                  <point x="714.4323593073592" y="59.0" />
-                  <point x="18.5" y="14.5" />
-                </edge>
-                <edge source="Product.QualcommCpu" target="Factory.Cpu">
-                  <point x="0.0" y="-14.5" />
-                  <point x="269.4959415584414" y="129.0" />
-                  <point x="584.0573593073592" y="129.0" />
-                  <point x="-18.25" y="14.5" />
-                </edge>
                 <edge source="Product.LgFactory" target="Factory.SmartPhoneFactory">
-                  <point x="46.71428571428589" y="-14.5" />
-                  <point x="196.11769480519484" y="308.0" />
-                  <point x="510.20427489177473" y="308.0" />
-                  <point x="-56.333333333333314" y="14.5" />
-                </edge>
-                <edge source="Product.AnotherPhoneFactory" target="Factory.Display">
                   <point x="0.0" y="-14.5" />
-                  <point x="503.92343073593065" y="238.0" />
-                  <point x="466.9959415584414" y="238.0" />
-                  <point x="-7.666666666666686" y="14.5" />
+                  <point x="54.5" y="54.0" />
+                  <point x="148.16666666666666" y="54.0" />
+                  <point x="-56.33333333333334" y="14.5" />
                 </edge>
-                <edge source="Factory.SmartPhoneFactory" target="Factory.Display">
-                  <point x="-56.33333333333337" y="-14.5" />
-                  <point x="510.20427489177473" y="109.0" />
-                  <point x="482.2656926406926" y="109.0" />
-                  <point x="7.666666666666686" y="14.5" />
-                </edge>
-                <edge source="Product.SamsungFactory" target="Product.SamsungDisplay">
-                  <point x="-21.571428571428555" y="-14.5" />
-                  <point x="864.3520021645021" y="268.0" />
-                  <point x="798.0990259740258" y="268.0" />
-                  <point x="0.0" y="14.5" />
+                <edge source="Product.SamsungRam" target="Factory.Ram">
+                  <point x="0.0" y="-14.5" />
+                  <point x="65.5" y="513.0" />
+                  <point x="114.25" y="513.0" />
+                  <point x="-18.5" y="14.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="580.0" y="339.5" />
-              <SelectedNodes />
+              <settings layout="Hierarchic Group" zoom="0.8177172061328789" x="241.5" y="283.50000000000006" />
+              <SelectedNodes>
+                <node>Product.QualcommCpu</node>
+              </SelectedNodes>
               <Categories />
               <SCOPE>All</SCOPE>
               <VISIBILITY>private</VISIBILITY>
@@ -10274,23 +10129,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="AbstractFactory" type="b2602c69:ProjectViewProjectNode" />
               <item name="AbstractFactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AbstractFactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AbstractFactory" type="462c0819:PsiDirectoryNode" />
-              <item name="Factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AbstractFactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AbstractFactory" type="462c0819:PsiDirectoryNode" />
-              <item name="Product" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AbstractFactory" type="b2602c69:ProjectViewProjectNode" />
@@ -10301,12 +10145,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547716328030" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547722256378" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -10353,25 +10198,26 @@
       <updated>1547627822966</updated>
       <workItem from="1547627824276" duration="1359000" />
       <workItem from="1547704137749" duration="8619000" />
+      <workItem from="1547716464988" duration="66000" />
+      <workItem from="1547722185682" duration="12000" />
+      <workItem from="1547722231268" duration="27000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9978000" />
+    <option name="totallyTimeSpent" value="10083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.25274727" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49848023" visible="true" weight="0.26190478" />
       <window_info id="Structure" order="1" sideWeight="0.50151974" side_tool="true" weight="0.25274727" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Dependency Viewer" weight="0.32959184" />
-      <window_info anchor="bottom" id="Analyze Dataflow to" weight="0.32959184" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32857144" />
@@ -10382,9 +10228,11 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="13" weight="0.32959184" />
+      <window_info anchor="bottom" id="Analyze Dataflow to" order="14" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -10406,20 +10254,8 @@
     <entry file="file://$PROJECT_DIR$/Product/Estimate.java" />
     <entry file="file://$PROJECT_DIR$/Product/PowerMaker.java" />
     <entry file="file://$PROJECT_DIR$/Product/RamMaker.java" />
-    <entry file="file://$PROJECT_DIR$/Factory/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Product/Phone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Factory/Product.java" />
+    <entry file="file://$PROJECT_DIR$/Product/Phone.java" />
     <entry file="file://$PROJECT_DIR$/Product/AnotherPhoneFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -10443,15 +10279,15 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-333.5" y="-210.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-333.0" y="-210.0" />
           <SelectedNodes>
             <node>Main</node>
           </SelectedNodes>
           <Categories>
             <Category>Fields</Category>
             <Category>Methods</Category>
-            <Category>Inner Classes</Category>
             <Category>Properties</Category>
+            <Category>Inner Classes</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
@@ -10520,14 +10356,14 @@
               <point x="55.416666666666686" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-206.0" y="-54.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-206.0" y="-54.0" />
           <SelectedNodes>
             <node>Product</node>
           </SelectedNodes>
           <Categories>
             <Category>Fields</Category>
-            <Category>Properties</Category>
             <Category>Methods</Category>
+            <Category>Properties</Category>
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
@@ -10572,13 +10408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Product/QualcommCpu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" lean-forward="true" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Factory/Ram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -10586,10 +10415,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Product/QualcommCpu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Product/SkHynix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-end-line="11" />
+          <caret line="11" selection-end-line="11" />
           <folding>
             <element signature="e#176#177#0" expanded="true" />
             <element signature="e#211#212#0" expanded="true" />
@@ -10600,7 +10436,7 @@
     <entry file="file://$PROJECT_DIR$/Product/SamsungFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-end-line="23" />
+          <caret line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#212#213#0" expanded="true" />
@@ -10616,38 +10452,31 @@
     <entry file="file://$PROJECT_DIR$/Product/SamsungDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="11" lean-forward="true" selection-end-line="11" />
+          <caret line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Product/SamsungRam.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="11" lean-forward="true" selection-end-line="11" />
+          <caret line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Product/ExinosCpu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="12" lean-forward="true" selection-end-line="12" />
+          <caret line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OrderSmartPhone.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="1" lean-forward="true" selection-end-line="17" />
+          <caret line="16" column="1" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -10657,222 +10486,89 @@
           <ID>JAVA</ID>
           <OriginalElement>Product</OriginalElement>
           <nodes>
-            <node x="200.49594155844142" y="189.0">Product.QualcommCpu</node>
-            <node x="893.5990259740258" y="189.0">Product.ExinosCpu</node>
-            <node x="428.59902597402595" y="0.0">Factory.Display</node>
-            <node x="412.42343073593065" y="328.0">Product.AnotherPhoneFactory</node>
-            <node x="723.5990259740258" y="189.0">Product.SamsungDisplay</node>
-            <node x="810.4234307359307" y="328.0">Product.SamsungFactory</node>
-            <node x="358.4959415584414" y="189.0">Product.SkHynix</node>
-            <node x="658.9323593073592" y="0.0">Factory.Ram</node>
-            <node x="482.0376082251081" y="189.0">Factory.SmartPhoneFactory</node>
-            <node x="565.8073593073592" y="0.0">Factory.Cpu</node>
-            <node x="94.90340909090895" y="328.0">Product.LgFactory</node>
-            <node x="73.49594155844142" y="189.0">Product.LgDisplay</node>
-            <node x="1028.5990259740258" y="189.0">Product.SamsungRam</node>
+            <node x="134.0" y="385.0">Product.QualcommCpu</node>
+            <node x="0.0" y="385.0">Product.ExinosCpu</node>
+            <node x="81.5" y="153.0">Factory.Display</node>
+            <node x="300.0" y="79.0">Product.AnotherPhoneFactory</node>
+            <node x="127.0" y="232.0">Product.SamsungDisplay</node>
+            <node x="129.0" y="79.0">Product.SamsungFactory</node>
+            <node x="151.0" y="538.0">Product.SkHynix</node>
+            <node x="95.75" y="459.0">Factory.Ram</node>
+            <node x="120.0" y="0.0">Factory.SmartPhoneFactory</node>
+            <node x="93.5" y="306.0">Factory.Cpu</node>
+            <node x="0.0" y="79.0">Product.LgFactory</node>
+            <node x="0.0" y="232.0">Product.LgDisplay</node>
+            <node x="0.0" y="538.0">Product.SamsungRam</node>
           </nodes>
           <notes />
           <edges>
-            <edge source="Product.LgFactory" target="Product.LgDisplay">
-              <point x="1.1368683772161603E-13" y="-14.5" />
-              <point x="149.40340909090907" y="278.0" />
-              <point x="100.24594155844142" y="278.0" />
-              <point x="-26.75" y="14.5" />
+            <edge source="Product.SkHynix" target="Factory.Ram">
+              <point x="0.0" y="-14.5" />
+              <point x="200.0" y="513.0" />
+              <point x="151.25" y="513.0" />
+              <point x="18.5" y="14.5" />
             </edge>
-            <edge source="Product.LgFactory" target="Factory.Cpu">
-              <point x="-31.142857142856997" y="-14.5" />
-              <point x="118.26055194805195" y="298.0" />
-              <point x="41.228084415584306" y="298.0" />
-              <point x="41.228084415584306" y="119.0" />
-              <point x="571.8906926406926" y="119.0" />
-              <point x="-30.41666666666663" y="14.5" />
+            <edge source="Product.SamsungDisplay" target="Factory.Display">
+              <point x="0.0" y="-14.5" />
+              <point x="201.5" y="207.0" />
+              <point x="150.5" y="207.0" />
+              <point x="23.0" y="14.5" />
             </edge>
-            <edge source="Product.SamsungFactory" target="Factory.SmartPhoneFactory">
-              <point x="-64.7142857142857" y="-14.5" />
-              <point x="821.209145021645" y="288.0" />
-              <point x="622.8709415584415" y="288.0" />
+            <edge source="Product.AnotherPhoneFactory" target="Factory.SmartPhoneFactory">
+              <point x="0.0" y="-14.5" />
+              <point x="391.5" y="54.0" />
+              <point x="260.83333333333337" y="54.0" />
               <point x="56.33333333333337" y="14.5" />
             </edge>
-            <edge source="Product.AnotherPhoneFactory" target="Product.SkHynix">
-              <point x="-26.142857142857224" y="-14.5" />
-              <point x="477.7805735930734" y="248.0" />
-              <point x="431.9959415584414" y="248.0" />
-              <point x="24.5" y="14.5" />
-            </edge>
-            <edge source="Product.LgFactory" target="Product.QualcommCpu">
-              <point x="15.571428571428783" y="-14.5" />
-              <point x="164.97483766233773" y="288.0" />
-              <point x="234.99594155844142" y="288.0" />
-              <point x="-34.5" y="14.5" />
-            </edge>
-            <edge source="Product.LgFactory" target="Factory.Ram">
-              <point x="-15.571428571428442" y="-14.5" />
-              <point x="133.8319805194805" y="288.0" />
-              <point x="52.228084415584306" y="288.0" />
-              <point x="52.228084415584306" y="149.0" />
-              <point x="665.0990259740258" y="149.0" />
-              <point x="-30.83333333333337" y="14.5" />
-            </edge>
-            <edge source="Product.AnotherPhoneFactory" target="Factory.Cpu">
-              <point x="52.285714285714334" y="-14.5" />
-              <point x="556.209145021645" y="298.0" />
-              <point x="661.5376082251081" y="298.0" />
-              <point x="661.5376082251081" y="139.0" />
-              <point x="608.3906926406926" y="139.0" />
-              <point x="6.083333333333371" y="14.5" />
+            <edge source="Product.SamsungFactory" target="Factory.SmartPhoneFactory">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
             </edge>
             <edge source="Product.ExinosCpu" target="Factory.Cpu">
               <point x="0.0" y="-14.5" />
-              <point x="950.5990259740258" y="69.0" />
-              <point x="632.7240259740258" y="69.0" />
-              <point x="30.41666666666663" y="14.5" />
+              <point x="57.0" y="360.0" />
+              <point x="111.75" y="360.0" />
+              <point x="-18.25" y="14.5" />
             </edge>
-            <edge source="Product.AnotherPhoneFactory" target="Product.QualcommCpu">
-              <point x="-52.285714285714334" y="-14.5" />
-              <point x="451.6377164502163" y="258.0" />
-              <point x="303.9959415584414" y="258.0" />
-              <point x="34.5" y="14.5" />
-            </edge>
-            <edge source="Product.SamsungRam" target="Factory.Ram">
+            <edge source="Product.QualcommCpu" target="Factory.Cpu">
               <point x="0.0" y="-14.5" />
-              <point x="1094.0990259740258" y="49.0" />
-              <point x="726.7656926406926" y="49.0" />
-              <point x="30.83333333333337" y="14.5" />
-            </edge>
-            <edge source="Factory.SmartPhoneFactory" target="Factory.Cpu">
-              <point x="0.0" y="-14.5" />
-              <point x="566.5376082251081" y="139.0" />
-              <point x="596.2240259740258" y="139.0" />
-              <point x="-6.083333333333371" y="14.5" />
-            </edge>
-            <edge source="Product.SkHynix" target="Factory.Ram">
-              <point x="0.0" y="-14.5" />
-              <point x="407.4959415584414" y="159.0" />
-              <point x="677.4323593073592" y="159.0" />
-              <point x="-18.5" y="14.5" />
-            </edge>
-            <edge source="Factory.SmartPhoneFactory" target="Factory.Ram">
-              <point x="56.33333333333337" y="-14.5" />
-              <point x="622.8709415584415" y="169.0" />
-              <point x="689.7656926406926" y="169.0" />
-              <point x="-6.166666666666629" y="14.5" />
-            </edge>
-            <edge source="Product.AnotherPhoneFactory" target="Factory.Ram">
-              <point x="78.42857142857144" y="-14.5" />
-              <point x="582.3520021645021" y="308.0" />
-              <point x="702.0990259740258" y="308.0" />
-              <point x="6.166666666666629" y="14.5" />
-            </edge>
-            <edge source="Product.SamsungFactory" target="Factory.Cpu">
-              <point x="0.0" y="-14.5" />
-              <point x="885.9234307359307" y="308.0" />
-              <point x="883.0990259740258" y="308.0" />
-              <point x="883.0990259740258" y="79.0" />
-              <point x="620.5573593073592" y="79.0" />
+              <point x="203.0" y="360.0" />
+              <point x="148.25" y="360.0" />
               <point x="18.25" y="14.5" />
             </edge>
             <edge source="Product.LgDisplay" target="Factory.Display">
               <point x="0.0" y="-14.5" />
-              <point x="126.99594155844142" y="109.0" />
-              <point x="451.59902597402595" y="109.0" />
+              <point x="53.5" y="207.0" />
+              <point x="104.5" y="207.0" />
               <point x="-23.0" y="14.5" />
             </edge>
-            <edge source="Product.SamsungFactory" target="Factory.Display">
-              <point x="-43.14285714285711" y="-14.5" />
-              <point x="842.7805735930735" y="278.0" />
-              <point x="713.0990259740258" y="278.0" />
-              <point x="713.0990259740258" y="99.0" />
-              <point x="497.59902597402595" y="99.0" />
-              <point x="23.0" y="14.5" />
-            </edge>
-            <edge source="Product.AnotherPhoneFactory" target="Product.LgDisplay">
-              <point x="-78.42857142857144" y="-14.5" />
-              <point x="425.4948593073592" y="268.0" />
-              <point x="153.74594155844142" y="268.0" />
-              <point x="26.75" y="14.5" />
-            </edge>
-            <edge source="Product.SamsungFactory" target="Product.ExinosCpu">
-              <point x="21.571428571428555" y="-14.5" />
-              <point x="907.4948593073592" y="288.0" />
-              <point x="950.5990259740258" y="288.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="Product.SamsungFactory" target="Product.SamsungRam">
-              <point x="64.71428571428572" y="-14.5" />
-              <point x="950.6377164502164" y="308.0" />
-              <point x="1094.0990259740258" y="308.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="Product.LgFactory" target="Product.SkHynix">
-              <point x="31.142857142857224" y="-14.5" />
-              <point x="180.54626623376618" y="298.0" />
-              <point x="382.9959415584414" y="298.0" />
-              <point x="-24.5" y="14.5" />
-            </edge>
-            <edge source="Product.SamsungDisplay" target="Factory.Display">
-              <point x="0.0" y="-14.5" />
-              <point x="798.0990259740258" y="89.0" />
-              <point x="512.9323593073592" y="89.0" />
-              <point x="38.333333333333314" y="14.5" />
-            </edge>
-            <edge source="Product.LgFactory" target="Factory.Display">
-              <point x="-46.714285714285666" y="-14.5" />
-              <point x="102.68912337662329" y="308.0" />
-              <point x="0.0" y="308.0" />
-              <point x="0.0" y="99.0" />
-              <point x="436.2656926406926" y="99.0" />
-              <point x="-38.333333333333314" y="14.5" />
-            </edge>
-            <edge source="Product.AnotherPhoneFactory" target="Factory.SmartPhoneFactory">
-              <point x="26.14285714285711" y="-14.5" />
-              <point x="530.0662878787878" y="288.0" />
-              <point x="566.5376082251081" y="288.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="Product.SamsungFactory" target="Factory.Ram">
-              <point x="43.14285714285717" y="-14.5" />
-              <point x="929.0662878787878" y="298.0" />
-              <point x="1018.0990259740258" y="298.0" />
-              <point x="1018.0990259740258" y="59.0" />
-              <point x="714.4323593073592" y="59.0" />
-              <point x="18.5" y="14.5" />
-            </edge>
-            <edge source="Product.QualcommCpu" target="Factory.Cpu">
-              <point x="0.0" y="-14.5" />
-              <point x="269.4959415584414" y="129.0" />
-              <point x="584.0573593073592" y="129.0" />
-              <point x="-18.25" y="14.5" />
-            </edge>
             <edge source="Product.LgFactory" target="Factory.SmartPhoneFactory">
-              <point x="46.71428571428589" y="-14.5" />
-              <point x="196.11769480519484" y="308.0" />
-              <point x="510.20427489177473" y="308.0" />
-              <point x="-56.333333333333314" y="14.5" />
-            </edge>
-            <edge source="Product.AnotherPhoneFactory" target="Factory.Display">
               <point x="0.0" y="-14.5" />
-              <point x="503.92343073593065" y="238.0" />
-              <point x="466.9959415584414" y="238.0" />
-              <point x="-7.666666666666686" y="14.5" />
+              <point x="54.5" y="54.0" />
+              <point x="148.16666666666666" y="54.0" />
+              <point x="-56.33333333333334" y="14.5" />
             </edge>
-            <edge source="Factory.SmartPhoneFactory" target="Factory.Display">
-              <point x="-56.33333333333337" y="-14.5" />
-              <point x="510.20427489177473" y="109.0" />
-              <point x="482.2656926406926" y="109.0" />
-              <point x="7.666666666666686" y="14.5" />
-            </edge>
-            <edge source="Product.SamsungFactory" target="Product.SamsungDisplay">
-              <point x="-21.571428571428555" y="-14.5" />
-              <point x="864.3520021645021" y="268.0" />
-              <point x="798.0990259740258" y="268.0" />
-              <point x="0.0" y="14.5" />
+            <edge source="Product.SamsungRam" target="Factory.Ram">
+              <point x="0.0" y="-14.5" />
+              <point x="65.5" y="513.0" />
+              <point x="114.25" y="513.0" />
+              <point x="-18.5" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="580.0" y="339.5" />
-          <SelectedNodes />
+          <settings layout="Hierarchic Group" zoom="0.8177172061328789" x="241.5" y="283.50000000000006" />
+          <SelectedNodes>
+            <node>Product.QualcommCpu</node>
+          </SelectedNodes>
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
         </state>
       </provider>
     </entry>
