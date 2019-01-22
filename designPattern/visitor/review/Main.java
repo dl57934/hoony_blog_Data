@@ -6,7 +6,7 @@ public class Main{
 		root.add(bin);
 		root.add(tmp);
 		bin.add(new File("vi", 10000));
-		bin.add(new File("", 10000));
+		bin.add(new File("latext", 20000));
 		root.accept(new ListVisit());
 	}
 }
