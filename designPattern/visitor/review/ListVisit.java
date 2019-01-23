@@ -8,13 +8,13 @@ public class ListVisit extends Visitor{
 	}
 	public void visit(Directory directory){
 		System.out.println(currentDirectory+"/"+directory);
-		savedString = currentDirectory;
+
 		currentDirectory = "/"+directory.getName();
 		Iterator it = directory.iterator();
 		while(it.hasNext()){
 			Entry entry = (Entry)it.next();
 			entry.accept(this);
 		}
-		currentDirectory = savedString;
+
 	}
 }
