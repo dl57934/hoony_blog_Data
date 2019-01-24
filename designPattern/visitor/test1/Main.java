@@ -26,18 +26,18 @@ public class Main{
 		Park.add(file("game.doc", 100));
 		Park.add(file("junk.mail", 100));
 
-		// StringVisitor strVisitor = new StringVisitor();
-		// root.accept(strVisitor);
-		FileFindVisitor ffv = new FileFindVisitor(".html");
-		root.accept(ffv);
+		StringVisitor strVisitor = new StringVisitor();
+		root.accept(strVisitor);
+		// FileFindVisitor ffv = new FileFindVisitor(".html");
+		// root.accept(ffv);
 
-		System.out.println("HTML files are:");
-		Iterator it = ffv.getFoundFiles();
+		// System.out.println("HTML files are:");
+		// Iterator it = ffv.getFoundFiles();
 
-		while(it.hasNext()){
-			File file = (File)it.next();
-			System.out.println(file.toString());
-		}
+		// while(it.hasNext()){
+		// 	File file = (File)it.next();
+		// 	System.out.println(file.toString());
+		// }
 	}	
 
 	public static File file(String name, int size){
