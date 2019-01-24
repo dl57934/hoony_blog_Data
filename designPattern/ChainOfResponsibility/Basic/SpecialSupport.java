@@ -5,7 +5,7 @@ public class SpecialSupport extends Support{
 		this.number = number;
 	}
 	protected boolean resolve(Trouble trouble){
-		if(trouble.getName() == number)
+		if(trouble.getNumber() == number)
 			return true;
 		return false;
 	}

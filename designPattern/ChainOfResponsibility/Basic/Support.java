@@ -1,11 +1,11 @@
-public abstract Support{
+public abstract class Support{
 	private String name;
 	private Support next;
 	public Support(String name){
 		this.name = name;
 	}
 
-	public Support setNext(Spport next){
+	public Support setNext(Support next){
 		this.next = next;
 		return next;
 	}
@@ -18,7 +18,7 @@ public abstract Support{
 			next.support(trouble);
 		}
 		else{
-			fail(trouble)
+			fail(trouble);
 		}
 	}
 
