@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2472d38-dcfa-49df-b365-70a3fd922ca6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonBasic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pythonBasic/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="192ffe55-4892-435e-a6ef-c5d5dfd97fa9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Flyweight/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Flyweight/pythonBasic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Flyweight/pythonBasic/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../visitor/pythonbasic/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../visitor/pythonbasic/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,13 +13,60 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/basicJava/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basicJava/Printer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="29" column="1" selection-end-line="29" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basicJava/PrinterProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basicJava/Printable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>calendar</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/basic/BigChar.java" />
+        <option value="$PROJECT_DIR$/basicJava/Printer.java" />
+        <option value="$PROJECT_DIR$/basicJava/PrinterProxy.java" />
+        <option value="$PROJECT_DIR$/basicJava/Main.java" />
       </list>
     </option>
   </component>
@@ -33,30 +80,30 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Flyweight" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flyweight" type="462c0819:PsiDirectoryNode" />
+              <item name="Proxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proxy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Flyweight" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flyweight" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Proxy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="basicJava" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548921522939" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549457249185" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -75,7 +122,7 @@
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Flyweight" />
+      <module name="Proxy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,24 +138,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a2472d38-dcfa-49df-b365-70a3fd922ca6" name="Default Changelist" comment="" />
-      <created>1548920351196</created>
+      <changelist id="192ffe55-4892-435e-a6ef-c5d5dfd97fa9" name="Default Changelist" comment="" />
+      <created>1549344525996</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1548920351196</updated>
-      <workItem from="1548920353552" duration="970000" />
-      <workItem from="1549344434170" duration="27000" />
-      <workItem from="1549344484587" duration="5000" />
+      <updated>1549344525996</updated>
+      <workItem from="1549344527342" duration="637000" />
+      <workItem from="1549455603287" duration="1656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1002000" />
+    <option name="totallyTimeSpent" value="2293000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25274727" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -116,7 +163,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2897959" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -127,7 +174,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -143,81 +190,41 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/BigChar">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>BigChar</OriginalElement>
-          <nodes>
-            <node x="94.49583333333331" y="0.0">BigChar</node>
-            <node x="0.0" y="79.0">BigCharFactory</node>
-            <node x="89.14583333333331" y="158.0">BigString</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="BigString" target="BigCharFactory">
-              <point x="-39.375" y="-14.5" />
-              <point x="102.27083333333331" y="138.0" />
-              <point x="71.5" y="138.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="BigString" target="BigChar">
-              <point x="-13.125" y="-14.5" />
-              <point x="128.52083333333331" y="128.0" />
-              <point x="153.5" y="128.0" />
-              <point x="153.5" y="59.0" />
-              <point x="142.9958333333333" y="59.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="BigCharFactory" target="BigChar">
-              <point x="35.75" y="-14.5" />
-              <point x="107.25" y="59.0" />
-              <point x="123.5958333333333" y="59.0" />
-              <point x="-19.400000000000006" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-273.0" y="70.0" />
-          <SelectedNodes>
-            <node>BigChar</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/basicJava/Printable.class">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/Main.java">
+    <entry file="file://$PROJECT_DIR$/basicJava/Printer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="345">
+          <caret line="29" column="1" selection-end-line="29" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/BigChar.java">
+    <entry file="file://$PROJECT_DIR$/basicJava/Printable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basicJava/PrinterProxy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/big3.txt">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.jdk/Contents/Home/lib/src.zip!/java.base/java/util/GregorianCalendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="2771">
+          <caret line="2407" column="35" selection-start-line="2407" selection-start-column="35" selection-end-line="2407" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/BigCharFactory.java">
+    <entry file="file://$PROJECT_DIR$/basicJava/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/BigString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,16 @@
+Query
+
+getDocuments:(_, {id})=>getDocuments({id}),
+preview:(_, {text})=>preview({preview}),
+recentEditDocument:(_, )=>recentEditDocument(),
+tokenCheck: (_, { token }) => signUpTokenCheck({ token })
+
+Mutation 
+
+signIn: (_, { id, password }) => signIn({ id, password }),
+signUp: (_, { id, password, name, token}) =>
+      signUp({ id, password, name, token }),
+writeDocument:(_, {text})=>
+	writeDocument({text})      
+editDocument: (_, { id, text }) =>
+      editDocument({ id, text })
