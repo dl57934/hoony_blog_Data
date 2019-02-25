@@ -1,30 +1,26 @@
 import React, { useState, useEffect } from "react";
 
-const App = () => {
-  const [count, setCount] = useState(0);
+const useInputTag = defaultValue => {
+  const [value, setValue] = useState(defaultValue);
 
-  useEffect(() => {
-    console.log(count);
-    // Update the document title using the browser API
-    document.title = `You clicked ${count} times`;
-  }, [count]);
-
-  const [name, setName] = useState("");
-  useEffect(() => {
-    console.log(name);
-  }, [name]);
-  const onChangeName = e => {
+  const onChange = e => {
     const {
       target: { value }
     } = e;
-    setName(value);
+    setValue(value);
   };
 
+  return { value, onChange };
+};
+
+const App = () => {
+  const [name, setName] = useState("");
   return (
     <div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>Click me</button>
-      <input value={name} type="email" onChange={onChangeName} />
+      <input value={name} onChange={e => setName(e.target.value)} />
+      <input {...useInputTag} type="password" />
+      <input {...useInputTag} type="email" />
+      <input {...useInputTag} type="name" />
     </div>
   );
 };
