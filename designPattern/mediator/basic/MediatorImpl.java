@@ -9,7 +9,8 @@ public class MediatorImpl implements Mediator{
 			Iterator it = favorites.iterator();
 			while(it.hasNext()){
 				User user = (User)it.next();
-				sender.sendMessage(message, user);
+				if(user != sender)
+					sender.sendMessage(message, user);
 			}
 		}
 	}

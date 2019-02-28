@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a4a505ca-9e05-4956-ab6a-ca3c0116290d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Command/basicJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Command/basicJava/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Memento/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Memento/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documents.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Documents.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/Mediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic/Mediator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/MediatorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic/MediatorImpl.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/Main">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>Main</OriginalElement>
+              <nodes>
+                <node x="0.0" y="168.0">MediatorImpl</node>
+                <node x="56.275000000000006" y="79.0">User</node>
+                <node x="41.84444444444446" y="0.0">Mediator</node>
+                <node x="88.7638888888889" y="247.0">Main</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Main" target="User">
+                  <point x="-9.625" y="-14.5" />
+                  <point x="117.6388888888889" y="217.0" />
+                  <point x="137.8125" y="217.0" />
+                  <point x="137.8125" y="138.0" />
+                  <point x="110.17500000000001" y="138.0" />
+                  <point x="15.400000000000006" y="14.5" />
+                </edge>
+                <edge source="User" target="Mediator">
+                  <point x="-25.66666666666667" y="-14.5" />
+                  <point x="69.10833333333333" y="54.0" />
+                  <point x="72.44444444444446" y="54.0" />
+                  <point x="-20.4" y="14.5" />
+                </edge>
+                <edge source="Mediator" target="User">
+                  <point x="20.400000000000006" y="14.5" />
+                  <point x="113.24444444444447" y="54.0" />
+                  <point x="120.44166666666666" y="54.0" />
+                  <point x="25.666666666666657" y="-14.5" />
+                </edge>
+                <edge source="Main" target="MediatorImpl">
+                  <point x="-28.875" y="-14.5" />
+                  <point x="98.3888888888889" y="227.0" />
+                  <point x="63.5" y="227.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="MediatorImpl" target="Mediator">
+                  <point x="-47.625" y="-14.5" />
+                  <point x="15.875" y="138.0" />
+                  <point x="45.775000000000006" y="138.0" />
+                  <point x="45.775000000000006" y="54.0" />
+                  <point x="52.044444444444466" y="54.0" />
+                  <point x="-40.8" y="14.5" />
+                </edge>
+                <edge source="Main" target="Mediator">
+                  <point x="28.875" y="-14.5" />
+                  <point x="156.1388888888889" y="227.0" />
+                  <point x="160.4638888888889" y="227.0" />
+                  <point x="160.4638888888889" y="54.0" />
+                  <point x="133.64444444444447" y="54.0" />
+                  <point x="40.80000000000001" y="14.5" />
+                </edge>
+                <edge source="MediatorImpl" target="User">
+                  <point x="47.625" y="-14.5" />
+                  <point x="111.125" y="148.0" />
+                  <point x="94.775" y="148.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="99.5" y="232.5" />
+              <SelectedNodes />
+              <Categories />
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Documents.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/MediatorImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="1" lean-forward="true" selection-end-line="12" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/Mediator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/basic/Mediator.java" />
+        <option value="$PROJECT_DIR$/basic/MediatorImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mediator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mediator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mediator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mediator" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550035736203" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="mediator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4a505ca-9e05-4956-ab6a-ca3c0116290d" name="Default Changelist" comment="" />
+      <created>1550033834641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550033834641</updated>
+      <workItem from="1550033837189" duration="1239000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1239000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2887755" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Documents.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/Mediator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="1" lean-forward="true" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/MediatorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Main">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Main</OriginalElement>
+          <nodes>
+            <node x="0.0" y="168.0">MediatorImpl</node>
+            <node x="56.275000000000006" y="79.0">User</node>
+            <node x="41.84444444444446" y="0.0">Mediator</node>
+            <node x="88.7638888888889" y="247.0">Main</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Main" target="User">
+              <point x="-9.625" y="-14.5" />
+              <point x="117.6388888888889" y="217.0" />
+              <point x="137.8125" y="217.0" />
+              <point x="137.8125" y="138.0" />
+              <point x="110.17500000000001" y="138.0" />
+              <point x="15.400000000000006" y="14.5" />
+            </edge>
+            <edge source="User" target="Mediator">
+              <point x="-25.66666666666667" y="-14.5" />
+              <point x="69.10833333333333" y="54.0" />
+              <point x="72.44444444444446" y="54.0" />
+              <point x="-20.4" y="14.5" />
+            </edge>
+            <edge source="Mediator" target="User">
+              <point x="20.400000000000006" y="14.5" />
+              <point x="113.24444444444447" y="54.0" />
+              <point x="120.44166666666666" y="54.0" />
+              <point x="25.666666666666657" y="-14.5" />
+            </edge>
+            <edge source="Main" target="MediatorImpl">
+              <point x="-28.875" y="-14.5" />
+              <point x="98.3888888888889" y="227.0" />
+              <point x="63.5" y="227.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="MediatorImpl" target="Mediator">
+              <point x="-47.625" y="-14.5" />
+              <point x="15.875" y="138.0" />
+              <point x="45.775000000000006" y="138.0" />
+              <point x="45.775000000000006" y="54.0" />
+              <point x="52.044444444444466" y="54.0" />
+              <point x="-40.8" y="14.5" />
+            </edge>
+            <edge source="Main" target="Mediator">
+              <point x="28.875" y="-14.5" />
+              <point x="156.1388888888889" y="227.0" />
+              <point x="160.4638888888889" y="227.0" />
+              <point x="160.4638888888889" y="54.0" />
+              <point x="133.64444444444447" y="54.0" />
+              <point x="40.80000000000001" y="14.5" />
+            </edge>
+            <edge source="MediatorImpl" target="User">
+              <point x="47.625" y="-14.5" />
+              <point x="111.125" y="148.0" />
+              <point x="94.775" y="148.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="99.5" y="232.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

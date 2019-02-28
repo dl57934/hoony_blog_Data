@@ -1,0 +1,14 @@
+{
+  "name": "designPattern",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-es2017": "^7.0.0-beta.53",
+    "add": "^2.0.6",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "yarn": "^1.13.0"
+  },
+  "dependencies": {}
+}
