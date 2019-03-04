@@ -1,32 +1,32 @@
-public class StringDisplay extends AbstractPrint{
-	String outputString;
+
+public class StringDisplay extends AbstractPrint {
+	String name;
 	int width;
 
-	public StringDisplay(String inputString){
-		outputString = inputString;
-		this.width = inputString.getBytes().length;
+	public StringDisplay(String name) {
+		this.name = name;
+		this.width = name.length();
 	}
 
-	public void open(){
-		printLine();
+	public void open() {
+		this.printLine();
 	}
 
-	public void print(){
-		System.out.println("|"+outputString+"|");
+	public void print() {
+		System.out.println("|" + this.name + "|");
 	}
 
-	public void close(){
-		printLine();
+	public void close() {
+		this.printLine();
 	}
 
-	public void printLine(){
-		StringBuilder strBuilder = new StringBuilder();
+	public void printLine() {
+		StringBuilder line = new StringBuilder();
+		line.append("*");
+		for (int i = 0; i < this.width; i++)
+			line.append("-");
 
-		strBuilder.append("*");
-		for(int i = 0; i < width; i++)
-			strBuilder.append("-");
-		strBuilder.append("*\n");
-		System.out.print(strBuilder);
+		line.append("*");
+		System.out.println(line);
 	}
-
 }

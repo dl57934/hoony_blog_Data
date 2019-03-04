@@ -1,10 +1,13 @@
-public abstract class AbstractPrint{
+public abstract class AbstractPrint {
 	public abstract void open();
-	public abstract void close();
+
 	public abstract void print();
-	public void display(){
+
+	public abstract void close();
+
+	public void write() {
 		open();
-		for(int i = 0; i < 5; i++)
+		for (int i = 0; i < 5; i++)
 			print();
 		close();
 	}

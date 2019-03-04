@@ -1,10 +1,10 @@
-public class Main{
-	public static void main(String[] args){
-		AbstractPrint charAbstractPrint = new CharDisplay('h');
-		AbstractPrint stringAbstractPrint = new StringDisplay("Hello. world");
-		AbstractPrint hello = new StringDisplay("안녕하세요.");
-		hello.display();
-		charAbstractPrint.display();
-		stringAbstractPrint.display();
+public class Main {
+	public static void main(String[] args) {
+		AbstractPrint hello = new StringDisplay("Hi Hoony's Blog");
+		AbstractPrint patternName = new StringDisplay("Hi Template Pattern");
+		AbstractPrint c = new CharDisplay('c');
+		hello.write();
+		c.write();
+		patternName.write();
 	}
 }

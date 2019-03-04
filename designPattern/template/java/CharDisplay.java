@@ -1,19 +1,22 @@
-public class CharDisplay extends AbstractPrint{
-	char inputChar;
 
-	public CharDisplay(char inputChar){
-		this.inputChar = inputChar;
+public class CharDisplay extends AbstractPrint {
+	char chararcter;
+	int width;
+
+	public CharDisplay(char chararcter) {
+		this.chararcter = chararcter;
 	}
 
-	public void open(){	
+	public void open() {
 		System.out.print("<<");
 	}
 
-	public void print(){
-		System.out.print(inputChar);
+	public void print() {
+		System.out.print(this.chararcter);
 	}
 
-	public void close(){
+	public void close() {
 		System.out.println(">>");
-	}	
+	}
+
 }
