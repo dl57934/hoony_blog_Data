@@ -5,10 +5,10 @@ public class Banner{
 	}
 
 	public void showWithParen(){
-		System.out.println("(" + this.name + ")");
+		System.out.println("("+ this.name + ")");
 	}
 
 	public void showWithAster(){
-		System.out.println("*"+this.name+"*");
+		System.out.println("*" + this.name +"*");
 	}
 }
