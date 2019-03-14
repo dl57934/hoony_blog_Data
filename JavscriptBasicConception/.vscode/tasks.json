@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "taskName": "Chrome",
+      "type": "process",
+      "command": "chrome.exe",
+      "windows": {
+        "command": "/Users/leesanghoon/Desktop/상훈이의 개발 폴더/hoony_blog_Data/JavscriptBasicConception/1.CallStack/index.html"
+      },
+      "args": ["${file}"],
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
