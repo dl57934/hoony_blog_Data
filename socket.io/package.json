@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "name": "socket.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "scripts": {
+    "startClient": "nodemon --exec babel-node client.js",
+    "startServer": "nodemon --exec babel-node server.js"
+  }
+}
