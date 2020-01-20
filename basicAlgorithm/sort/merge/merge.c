@@ -41,3 +41,4 @@ void merge(int arr[], int temp[], int start, int mid, int end){
 	for(int i = 0; i <= mid-part1;i++)
 		arr[index+i] = temp[i+part1];
 }
+
