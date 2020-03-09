@@ -15,3 +15,7 @@ let cardPicker = deck.createCardPicker();
 let pickedCard = cardPicker();
 
 alert("card: " + pickedCard.card + " of " + pickedCard.suit);
+
+interface UIElement {
+  addClickListener(onclick: (this: void, e: Event) => void): void;
+}
