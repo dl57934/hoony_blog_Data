@@ -18,6 +18,7 @@ const reducer = (state = [], action) => {
     default:
       return state;
   }
+  ㅇ;
 };
 
 const store = createStore(reducer);
