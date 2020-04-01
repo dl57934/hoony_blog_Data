@@ -2,21 +2,27 @@ package main
 
 import (
 	"fmt"
+	"reflect"
 )
 
-type T struct {
-	S string
-}
-
-func (t *T) M() {
-	fmt.Println(t.S)
+func isNumbers(numbers [4]int, c chan bool) {
+	for number := range numbers {
+		if reflect.TypeOf(number).String() == "int" {
+			c <- true
+		} else {
+			c <- false
+		}
+	}
+	close(c)
 }
 
 func main() {
-	var x = [4]int{1, 2, 3, 4}
-	t := x[:]
-	fmt.Println("%v", t)
-}
-func describe(i *T) {
-	fmt.Printf("(%v, %T)\n", i, i)
+	c := make(chan bool)
+	numbers := [4]int{1, 1, 3, 2}
+
+	go isNumbers(numbers, c)
+	for i := range c {
+		fmt.Println(i)
+	}
+
 }
